@@ -1,3 +1,5 @@
+> **_NOTE:_**  This is a fork of **[react multi date picker](https://shahabyazdi.github.io/react-multi-date-picker)** package which contained es module build
+
 # DatePicker
 
 Simple React datepicker component for working with `gregorian`, `persian`, `arabic` and `indian` calendars
