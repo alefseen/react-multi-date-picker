@@ -51,6 +51,20 @@ export default [
     ],
     ...getProps(),
   },
+  {
+    input: "src/index.js",
+    output: [
+      {
+        file: "build/index_module.min.js",
+        format: "es",
+        plugins: [terser()],
+        name: "ReactMultiDatePicker",
+        exports: "named",
+        globals,
+      },
+    ],
+    ...getProps(),
+  },
   ...build("plugins"),
   ...build("elements"),
 ];
